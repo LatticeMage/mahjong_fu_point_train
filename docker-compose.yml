@@ -1,0 +1,11 @@
+services:
+  dev:
+    image: node:24
+    working_dir: /app
+    volumes:
+      - ./:/app/
+    stdin_open: true
+    tty: true
+    ports:
+      - "127.0.0.1:3000:3000"
+    command: npm run dev
