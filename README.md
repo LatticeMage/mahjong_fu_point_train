@@ -1,9 +1,11 @@
-# svelte-static-template
+# Svelte Static Site Template
 
 template for build svelte 5 static site with vite 6
 
 
-## svelte build
+## svelte env
+
+essential dep
 ```
 npm install -D @sveltejs/adapter-static
 ```
@@ -13,6 +15,10 @@ npm install -D @sveltejs/adapter-static
 export const prerender = true;
 ```
 
-```
-see https://svelte.dev/docs/kit/adapter-static
-```
+other resource:
+* https://svelte.dev/docs/kit/adapter-static
+
+
+## other usage
+
+support vite-node
